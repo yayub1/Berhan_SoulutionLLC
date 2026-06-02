@@ -26,16 +26,12 @@ const navLinks = [
   },
   {
     id: 6,
-    label: "Blog",
-    path: "/blog",
+    label: "Book Appointment",
+    path: "/BookAppointment",
   },
+
   {
     id: 7,
-    label: "About",
-    path: "/about",
-  },
-  {
-    id: 8,
     label: "Contact",
     path: "/contact",
   },

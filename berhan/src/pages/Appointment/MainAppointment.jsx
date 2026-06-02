@@ -1,4 +1,4 @@
-function MainBlog() {
+function MainAppointment() {
     return (
         <div className="min-h-[80vh] flex items-center justify-center bg-gray-50 px-4">
             <div className="text-center max-w-2xl">
@@ -28,4 +28,4 @@ function MainBlog() {
     );
 }
 
-export default MainBlog;
+export default MainAppointment;
