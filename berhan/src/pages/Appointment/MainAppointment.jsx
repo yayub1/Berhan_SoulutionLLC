@@ -3,17 +3,19 @@ import AppointmentLeft from "./AppointmentLeft";
 import AppointmentTop from "./AppintmentTop";
 import AppointmentRight from "./AppointmentRight";
 import Footer from "../../components/layout/Footer";
+
 function MainAppointment() {
     return (
-        <div className="min-h-[80vh] bg-gray-50 px-4">
-            <div className=" mx-auto">
+        <div className="min-h-screen bg-gray-50 px-4">
+            <div className="max-w-7xl mx-auto">
                 <AppointmentTop />
             </div>
 
-            <div className="max-w-6x2 mx-auto lg:ml-50 -mt-20 lg:-mt-80 flex flex-col lg:flex-row items-center" >
+            <div className="max-w-7xl mx-auto -mt-20 lg:-mt-80 flex flex-col lg:flex-row justify-center items-stretch gap-8">
                 <AppointmentRight />
                 <AppointmentLeft />
             </div>
+
             <Footer />
         </div>
     );
