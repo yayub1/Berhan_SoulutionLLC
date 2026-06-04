@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Input({
+function InputField({
     label,
     id,
     className = '',
@@ -24,4 +24,4 @@ function Input({
     );
 }
 
-export default Input;
+export default InputField;
