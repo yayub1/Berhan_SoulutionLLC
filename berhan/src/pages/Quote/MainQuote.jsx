@@ -46,6 +46,32 @@ function MainQuote() {
                         <InputField label="Street Address *" id="address" placeholder="123 Main St, Apt 4" required
                             containerClassName="flex flex-col gap-1.5"
                             className="w-full px-3 py-2.5 text-base text-gray-900 bg-white border-2 border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:border-yellow-700 transition-colors" />
+                        <InputField
+                            label="City *"
+                            id="city"
+                            placeholder="e.g. Las Vegas"
+                            required
+                            containerClassName="flex flex-col gap-1.5"
+                            className="w-full px-3 py-2.5 text-base text-gray-900 bg-white border-2 border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:border-yellow-700 transition-colors"
+                        />
+
+                        <InputField
+                            label="State *"
+                            id="state"
+                            placeholder="e.g. Nevada"
+                            required
+                            containerClassName="flex flex-col gap-1.5"
+                            className="w-full px-3 py-2.5 text-base text-gray-900 bg-white border-2 border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:border-yellow-700 transition-colors"
+                        />
+
+                        <InputField
+                            label="ZIP Code *"
+                            id="zipCode"
+                            placeholder="e.g. 89101"
+                            required
+                            containerClassName="flex flex-col gap-1.5"
+                            className="w-full px-3 py-2.5 text-base text-gray-900 bg-white border-2 border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:border-yellow-700 transition-colors"
+                        />
                     </div>
                 </div>
 
@@ -71,13 +97,14 @@ function MainQuote() {
                 </div>
 
                 {/* Section 3: Coverage Preferences */}
+                {/* Section 3: Coverage Preferences */}
                 <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-6">
                     <h2 className="text-xs font-bold uppercase tracking-widest text-gray-500 border-b pb-2">
                         3. Coverage Preferences
                     </h2>
                     <div className="flex flex-col gap-1.5">
                         <label htmlFor="coverageType" className="text-xs font-bold uppercase tracking-widest text-gray-900">
-                            Coverage Type *
+                            Coverage Type
                         </label>
                         <select id="coverageType" className="w-full px-3 py-2.5 bg-white text-gray-900 border-2 border-gray-300 rounded-md focus:outline-none focus:border-yellow-700 text-base">
                             <option value="">Select Coverage Type</option>
