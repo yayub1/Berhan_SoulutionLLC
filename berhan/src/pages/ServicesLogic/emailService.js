@@ -4,7 +4,7 @@ const SERVICE_ID         = "service_111222";
 const OWNER_TEMPLATE_ID  = "template_9p3l1gr";
 const CLIENT_TEMPLATE_ID = "template_9nfvh7f";  // ✅ updated
 const PUBLIC_KEY         = "ZtL41oINldnjsubVa";
-const OWNER_EMAIL        = "yayu.b3516@gmail.com";
+const OWNER_EMAIL        = "berhangirum@tinsayetax.com";
 
 export const sendAppointmentEmails = async (formData) => {
 
