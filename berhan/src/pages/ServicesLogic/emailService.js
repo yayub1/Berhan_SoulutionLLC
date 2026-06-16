@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
 
-const SERVICE_ID         = "service_111222";
+const SERVICE_ID         = "service_ysogeua";
 const OWNER_TEMPLATE_ID  = "template_v6m8v1d";
 const CLIENT_TEMPLATE_ID = "template_vb4omp8";  // ✅ updated
 const PUBLIC_KEY         = "ZtL41oINldnjsubVa";
