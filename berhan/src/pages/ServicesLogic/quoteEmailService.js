@@ -4,7 +4,7 @@ const SERVICE_ID         = "service_111222";
 const OWNER_TEMPLATE_ID  = "template_taoicb4";
 const CLIENT_TEMPLATE_ID = "template_zldze04";
 const PUBLIC_KEY         = "1j33wZgxWn59k1sT_";
-const OWNER_EMAIL        = "berhangirum@tinsayetax.com";
+const OWNER_EMAIL        = "berhanllc11@gmail.com";
 
 export const sendQuoteEmails = async (formData) => {
     const base = {
